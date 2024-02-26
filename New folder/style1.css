@@ -1,0 +1,150 @@
+a:hover{
+	text-decoration: none;
+}
+.section{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+#header{
+	color: #fff;
+	background-color: #d63031;
+
+}
+#logo{
+	font-size: 2 rem;
+	margin-top: 5px;
+	
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+
+}
+
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: white;
+	padding: 15px 10px;
+	display :block;
+}
+#menu li a:hover{
+background-color: #c0392b;
+}
+#banner{
+	background-image: url(backround.jpg);
+	width: 100%;
+	height: 30%
+
+}
+
+.banner-title h2{
+	background: rgba(255,255,255,0.5);
+	display: inline-block;
+	padding: 10px;
+	margin: 0px;
+}.banner-title p.lead{
+	color: #fff;
+	background: #d63031;
+	padding: 10px;
+
+}
+.service-box{
+	text-align: center;
+}
+.section h3.section-head{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000
+	
+}
+.section h3.section-head:after{
+	background:#e74c3c;
+	content: "";
+	display: block;
+	width: 100px;
+	height:3px;
+	margin:20px auto;
+}
+.service-box i.fa{
+	color: #e74c3c;
+	font-size:30px;
+}
+.readmore{
+	color:#e74c3c;
+	margin-bottom: 2rem;
+	margin-top: -20px;
+}
+#testimonial{
+	color: white;
+	background-color: #7f8c8d;
+	 url(backround.jpg) no-repeat 0 0;
+background-size: cover;
+padding:50px 0; 
+position: relative;
+}
+#textimonial:before{
+	background: #7f8c8d;
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}.img{
+	border-radius: 50%;
+}h4{
+	font-size: 20px;
+	color: #e74c3c;
+}
+.pera{
+	margin: 0px;
+}
+.recentnews{
+	text-align: center;
+}
+.footer{
+background-color: rgba(52,73,94,0.7);
+}
+
+.footer-widget{
+	
+	color: #fff;
+}
+
+.footer-widget h4:after {
+	background:#e74c3c;
+	content: "";
+	display: block;
+	width: 100px;
+	height:3px;
+	margin-left: 0px;
+	margin-top: 15px ;
+	margin-bottom: 15px;
+}
+.footer-widget li{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	margin-bottom: 3px;
+}
+.footer-widget a{
+	color: white;
+}
+.footerr{
+	padding: 78px,0px;
+	float: right;
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	font-size: 20px;
+	padding:10px,0px;
+}
+.lastdiv{
+	background-color: #2d3436;
+	color: white;
+	padding:0.5rem;
+	margin: 0,0px;
+}
